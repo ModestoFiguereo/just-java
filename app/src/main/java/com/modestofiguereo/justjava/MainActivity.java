@@ -55,29 +55,4 @@ public class MainActivity extends AppCompatActivity {
         display(quantity.getQuantity());
 //        displayPrice(quantity.getQuantity() * 5);
     }
-
-    private class Quantity {
-        private int quantity;
-
-        public Quantity() {
-            quantity = 0;
-        }
-
-        public Quantity(int seed) {
-            quantity = seed;
-        }
-
-        public void incrementBy(int step) {
-            ++quantity;
-        }
-
-        public void decrementBy(int step) {
-            if (quantity > 0)
-                --quantity;
-        }
-
-        public int getQuantity() {
-            return quantity;
-        }
-    }
 }
