@@ -47,13 +47,13 @@ public class MainActivity extends AppCompatActivity {
     public void increment(View view) {
         quantity.incrementBy(1);
         display(quantity.getQuantity());
-        displayPrice(quantity.getQuantity() * 5);
+//        displayPrice(quantity.getQuantity() * 5);
     }
 
     public void decrement(View view) {
         quantity.decrementBy(1);
         display(quantity.getQuantity());
-        displayPrice(quantity.getQuantity() * 5);
+//        displayPrice(quantity.getQuantity() * 5);
     }
 
     private class Quantity {
